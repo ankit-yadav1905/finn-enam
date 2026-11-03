@@ -2,7 +2,7 @@
 
 ## Automated checks
 
-- 23 Node tests: arithmetic, compatible reporting bases, relevance/abstention, materiality, symbol parsing, dates, deduplication, bounded concurrency, provider fallback, edge-compatible redirects and real PDF parser extraction.
+- 24 Node tests: arithmetic, compatible reporting bases, relevance/abstention, materiality, symbol parsing, dates, deduplication, bounded concurrency, provider fallback, edge-compatible redirects and real PDF parser extraction.
 - 3 Python tests: migration of legacy ID-less documents, idempotent reimport, and URL validation.
 - TypeScript check passes; production bundle builds.
 
@@ -25,3 +25,5 @@ Cloudflare fetch rejects redirect:'error'; the previous generic API catch concea
 - Optional model synthesis remains unconfigured/untested as requested.
 - Background scheduling requires the authenticated Site tool to be connected and an actual cloud-task refresh/readback. Do not claim it is active from the endpoint's existence.
 - GitHub and original chat export remain separate submission steps.
+
+Price-only sessions retain close and price change when an exchange/provider omits volume. Volume and volume ratio remain null, never zero.

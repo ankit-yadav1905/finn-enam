@@ -54,3 +54,5 @@ Python importer tests require pypdf and reportlab. See docs/VALIDATION.md for ob
 - Mobile/browser alert preferences are device-local. Unattended tool defaults are 3% price/2x volume unless the cloud task passes alternatives. Device push/email delivery is not implemented.
 - Raw-close price changes can reflect corporate actions. Check source documents before interpreting a threshold crossing.
 - GitHub publishing, the original AI conversation export, and optional model setup require the user's remaining account setup.
+
+Price-only sessions retain close and price change when an exchange/provider omits volume. Volume and volume ratio remain null, never zero.

@@ -68,7 +68,7 @@ export async function getMarket(input:string,options:Options={}) {
         const body=await sourceJson(source,options.fetcher);const result=body.chart?.result?.[0];
         if(!result?.timestamp||!result?.indicators?.quote?.[0])throw new SourceError('NO_DATA',String(body.chart?.error?.description||'Provider returned no daily price history.').slice(0,160));
         const quote=result.indicators.quote[0],india=new Date(now+330*60000),today=india.toISOString().slice(0,10),closed=india.getUTCHours()>=16;
-        const history=result.timestamp.map((stamp:number,i:number)=>({date:new Date(stamp*1000).toISOString().slice(0,10),close:quote.close[i],volume:quote.volume[i]})).filter((row:{date:string;close:number;volume:number})=>Number.isFinite(row.close)&&row.close>0&&Number.isFinite(row.volume)&&row.volume>=0&&(row.date<today||(row.date===today&&closed)));
+        const history=result.timestamp.map((stamp:number,i:number)=>({date:new Date(stamp*1000).toISOString().slice(0,10),close:quote.close[i],volume:quote.volume[i]})).filter((row:{date:string;close:number;volume:number})=>Number.isFinite(row.close)&&row.close>0&&(row.date<today||(row.date===today&&closed)));
         if(history.length<2)throw new SourceError('INSUFFICIENT_SESSIONS','Fewer than two completed trading sessions are available.');
         return {status:'ok' as const,ticker:parsed.ticker,exchange:parsed.exchange,asOf:history.at(-1)?.date,fetchedAt:new Date(now).toISOString(),currency:result.meta?.currency||'INR',latest:summarizePrices(history),history,source,diagnostics,attribution:'Yahoo Finance. Completed daily sessions only. Raw closes; corporate actions can affect comparisons.'};
       }catch(error){diagnostics.push(diagnostic(host,error));}

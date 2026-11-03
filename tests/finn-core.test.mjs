@@ -38,3 +38,8 @@ test('financial comparisons reject mismatched basis units and periods', () => {
 test('source retrieval accepts short exact management excerpts', () => {
   assert.equal(retrievePassages('The new guidance is 3.75% to 4.5% growth in constant currency.','guidance').length,1);
 });
+
+test('price-only sessions retain closes without inventing missing volume',()=>{
+ const result=summarizePrices([{date:'2026-11-01',close:100,volume:null},{date:'2026-11-02',close:110,volume:null}]);
+ assert.equal(result.close,110);assert.equal(result.changePercent,10);assert.equal(result.volume,null);assert.equal(result.volumeRatio,null);assert.equal(result.baselineSessions,0);
+});
