@@ -19,6 +19,8 @@ Repeat with 0001_brown_storm.sql on a fresh database. Do not replay applied migr
 
 ## Try it
 
+The app opens on Discover: preview an image-led case study, open its research question, or go directly to Briefing from the navigation. The motion control pauses decorative animation; system reduced motion is respected. The artwork is original and illustrative, separate from company evidence.
+
 1. Live portfolio starts with the last 24 hours. Check exchange coverage, expand routine filings, and inspect source links. Price/volume and filings refresh every five minutes while the view is open.
 2. Set price and volume thresholds with the bell button; select material announcement categories in the briefing. Market scans show completed-session evidence and provider coverage.
 3. Research ASIANPAINT and ask about operating cash flow. Its complete annual report and earnings-call transcript are indexed with page citations. HCLTECH also has a complete report/transcript.

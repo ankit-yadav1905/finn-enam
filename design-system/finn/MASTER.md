@@ -36,3 +36,7 @@ Typography: existing DM Sans body and Manrope headings retained to preserve iden
 ## Scope
 
 This pass changes presentation, visible hierarchy, saved-item navigation and preferences accessibility. It preserves APIs, finance calculations, model configuration, document provenance, monitoring rules and deployment audience.
+
+## Editorial refresh override - 3 November 2026
+
+The user subsequently requested an interactive, image-led experience inspired by the Mirko Romanelli Dribbble reference. `pages/discover.md` supersedes the presentation/layout/motion decisions above for the new Discover view and shared editorial navigation. Functional APIs, finance/provenance conventions and accessibility requirements remain applicable. This is a visual iteration, not a claim that the separate audit's backend gaps have been repaired.
