@@ -7,7 +7,8 @@
 - [x] Public Site audience configured.
 - [x] Verify final public deployment and database operations.
 - [x] Authenticated refresh/readback verified; weekday monitoring enabled, first scheduled run pending.
-- [ ] Publish GitHub repository after verification, as requested.
+- [x] Publish verified source to https://github.com/ankit-yadav1905/finn-enam (public, main branch).
 - [x] Original visible conversation export: docs/AI_CONVERSATION.md (scope explained in file).
-- [ ] Replace name and GitHub/history placeholders in covering note.
+- [x] Add verified GitHub and conversation-history links to covering note.
+- [ ] Replace [Your name] in covering note with the submitter's name.
 - [ ] Send the final email (not sent automatically).

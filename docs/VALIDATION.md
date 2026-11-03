@@ -19,15 +19,20 @@
 
 Cloudflare fetch rejects redirect:'error'; the previous generic API catch concealed this. Providers never received those requests. Both feed and document code now use redirect:'manual' and reject non-success response statuses, preserving the redirect boundary without the unsupported option.
 
-## Remaining verification/setup
+## Remaining setup
 
-- Public-host checks must pass after deployment; local success is not treated as proof of public success.
 - Optional model synthesis remains unconfigured/untested as requested.
-- Background scheduling requires the authenticated Site tool to be connected and an actual cloud-task refresh/readback. Do not claim it is active from the endpoint's existence.
-- GitHub and original chat export remain separate submission steps.
+- The first scheduled monitoring occurrence has not been observed. Authenticated refresh/readback was verified separately, as recorded below.
+- The covering note needs the submitter's name before manual email submission.
 
 Price-only sessions retain close and price change when an exchange/provider omits volume. Volume and volume ratio remain null, never zero.
 
 ## Public deployment follow-up
 
 Public health/storage, INFY EOD,18-company24-hour digest and ASIANPAINT full-report research all passed. Anonymous imports return401 as intended. The authenticated FINN refresh tool retrieved all18 sources; its second run returned zero repeated alerts. Weekday hourly09:30-18:30 Asia/Kolkata monitoring is enabled; first scheduled occurrence is pending. Live D1 event and market-cache rows were read back successfully.
+
+## UI and repository follow-up
+
+UI UX Pro Max guidance was applied to the dashboard, mobile controls, keyboard focus, native preferences dialog, loading states, filters and readable source coverage. TypeScript and production build passed. Browser checks at 375, 768, 1024 and 1440 pixels found no horizontal page overflow. Live Saved navigation and ASIANPAINT research were verified. Public deployment version 3 succeeded and its updated dashboard loaded successfully.
+
+The verified source, including docs/AI_CONVERSATION.md, was pushed to the public main branch at https://github.com/ankit-yadav1905/finn-enam on 3 November 2026.

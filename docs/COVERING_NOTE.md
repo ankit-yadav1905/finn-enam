@@ -9,7 +9,7 @@ Prototype: https://finn-enam-ashis.matangisharma2020.chatgpt.site
 GitHub: https://github.com/ankit-yadav1905/finn-enam
 AI build history: https://github.com/ankit-yadav1905/finn-enam/blob/main/docs/AI_CONVERSATION.md
 
-FINN monitors a mock18-company watchlist using completed daily prices and NSE/BSE disclosures. Its live briefing defaults to24 hours, prioritises material events, exposes source coverage, and evaluates configurable price/volume thresholds. Source records and last-success snapshots persist in D1.
+FINN monitors a mock 18-company watchlist using completed daily prices and NSE/BSE disclosures. Its live briefing defaults to 24 hours, prioritises material events, exposes source coverage, and evaluates configurable price/volume thresholds. Source records and last-success snapshots persist in D1.
 
 Research uses primary reports/transcripts with page-level evidence. HCLTech and nonportfolio Asian Paints have complete documents indexed; other companies can be investigated through exchange discovery and verified document imports. Without a model key it returns explicitly labelled evidence passages and abstains when the sources do not answer the question. Optional synthesis is server-only and budgeted.
 

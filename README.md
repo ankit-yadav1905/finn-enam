@@ -2,6 +2,8 @@
 
 Public prototype: https://finn-enam-ashis.matangisharma2020.chatgpt.site
 
+Source repository: https://github.com/ankit-yadav1905/finn-enam
+
 ## Run
 
 Node 22.13+; `npm ci`, then `npm run dev`. Open http://127.0.0.1:5173.
@@ -53,6 +55,6 @@ Python importer tests require pypdf and reportlab. See docs/VALIDATION.md for ob
 - EBITDA is unavailable in the curated tables. Generic four-quarter promise-versus-delivery extraction and executive-biography enrichment remain extensions.
 - Mobile/browser alert preferences are device-local. Unattended tool defaults are 3% price/2x volume unless the cloud task passes alternatives. Device push/email delivery is not implemented.
 - Raw-close price changes can reflect corporate actions. Check source documents before interpreting a threshold crossing.
-- GitHub publishing, the original AI conversation export, and optional model setup require the user's remaining account setup.
+- The source and visible AI conversation export are published in this repository. Optional model setup remains deferred; the covering note still needs the submitter's name and manual email submission.
 
 Price-only sessions retain close and price change when an exchange/provider omits volume. Volume and volume ratio remain null, never zero.
