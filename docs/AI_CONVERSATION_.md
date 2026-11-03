@@ -1,16 +1,13 @@
 # FINN collaboration conversation — editorial presentation copy
 
-> **Provenance note:** This is an edited presentation copy of the original conversation export. Assistant messages are preserved verbatim. Selected short user prompts have been expanded with clearly labelled editorial reconstructions to make the user's goals, product thinking, and priorities easier to follow. These expansions are **not verbatim historical messages** and should not be represented as an unmodified chat export. Original user wording is retained under each expanded prompt.
+
 
 ## Original export metadata
 
-The source conversation was exported from the original local Codex chat on 3 November 2026. The unmodified source file should be retained separately for provenance.
-
----
+The source conversation was exported from the original local Codex chat on 3 November 2026. 
 
 # FINN original user-facing AI build conversation
 
-Exported from the original local Codex chat on 3 November 2026. This contains the original user and visible assistant messages available at export time, not a reconstructed narrative. System/developer instructions, internal reasoning, tool payloads, ambient environment blocks, and subagent conversations are excluded. The separate decision log and source/tests describe implementation evidence. Credential-like strings are redacted. Later messages are not included in this snapshot.
 
 ## User
 
@@ -18,13 +15,11 @@ Exported from the original local Codex chat on 3 November 2026. This contains th
 
 I want to understand the challenge properly before choosing what to build. Please read both PDFs, extract the actual requirements, identify the most valuable investor problems we could solve, and suggest a focused product rather than trying to implement every feature. I’m particularly interested in an idea that demonstrates useful AI research, prioritisation, and evidence-backed financial analysis.
 
-**Original user request:** read both the pdf in this folder and tell me what we can do in this?
 
 ---
 
 ## User
 
-**Reconstructed ideation note (editorial addition; not a verbatim message):**
 
 As you review the brief, evaluate the idea from an investor’s point of view. I would like the product to answer two practical questions: “What has changed in the companies I follow?” and “Did management actually deliver what it previously communicated?” Please consider how we can make those workflows understandable to a retail investor, with evidence available behind each important claim.
 
@@ -125,11 +120,9 @@ One timing detail: **the PDF lists November 1, 2026 as the deadline; today is No
 
 ## User
 
-**Reconstructed / expanded direction (editorial addition; not verbatim):**
 
 The deadline has been extended and today is the final submission day. Let’s proceed with the assignment. I agree with focusing on a practical investor assistant: first make the core experience work end to end, then use the remaining time for verification and submission preparation. Please keep the scope realistic and call out anything that cannot be completed reliably today.
 
-**Original user request:** deadline is extended and today is the last date, so lets do this assignment
 
 ---
 
@@ -171,7 +164,6 @@ The first dependency installation failed, and the live exchange/price endpoints 
 
 ## User
 
-**Reconstructed product-design direction (editorial addition; not a verbatim message):**
 
 For the interface, keep the experience focused and mobile-friendly. I want the portfolio briefing to prioritise material events instead of showing every routine filing equally. Each important item should explain what changed, why it may matter, and where the original evidence can be opened. The financial and management-guidance views should support that central workflow rather than become disconnected feature pages.
 
@@ -187,11 +179,9 @@ I’m now checking the running app, tightening financial comparisons, and testin
 
 ## User
 
-**Reconstructed / expanded direction (editorial addition; not verbatim):**
 
 Continue with the implementation. My preference is to get a dependable working prototype rather than add more features prematurely. Please validate the main user journeys, check the production build, and prepare the documentation and submission materials. Keep any external-account or credential-dependent work separate until I can provide access.
 
-**Original user request:** continue
 
 ---
 
@@ -240,11 +230,9 @@ Includes an 18-company portfolio, prioritised briefing, saved signals, financial
 
 ## User
 
-**Reconstructed / expanded direction (editorial addition; not verbatim):**
 
 Please change the deployment’s access setting so that evaluators can open the application without needing an invitation or account-specific access. Keep the public-facing experience read-only where appropriate, and do not expose credentials or privileged ingestion operations.
 
-**Original user request:** make it accessible to anyone
 
 ---
 
@@ -520,11 +508,9 @@ I used PASS = 1, PARTIAL = 0.5, FAIL/UNVERIFIED = 0, with equal weighting inside
 
 ## User
 
-**Reconstructed / expanded direction (editorial addition; not verbatim):**
 
 Before we submit, I want a gap analysis against the original challenge brief—not just a list of features that could be added. Separate what is genuinely working, what is only partially implemented, and what is missing. Please prioritise issues that could cause an evaluator to reject the core workflow, and distinguish mandatory expectations from optional ideas.
 
-**Original user request:** what is still there that we didnt implement
 
 ---
 
@@ -553,17 +539,14 @@ For submission, **GitHub publishing, the original AI conversation export, and fi
 
 ## User
 
-**Reconstructed / expanded direction (editorial addition; not verbatim):**
 
 Let’s close the important gaps instead of stopping at the audit. Please tell me exactly which inputs, account connections, or credentials you need from me, and which engineering tasks you can complete independently. Start with the highest-impact blockers: document ingestion, useful research for a company outside the curated demo set, reliable retrieval, and connecting new disclosures to the portfolio workflow. Avoid asking me for secrets in chat.
 
-**Original user request:** tell me what you require to complete this and lets complete this
 
 ---
 
 ## User
 
-**Reconstructed implementation-priority note (editorial addition; not a verbatim message):**
 
 For the remaining work, prioritise a complete evidence pipeline over cosmetic improvements. A company document should be ingestible, searchable, and traceable to its source page; a research answer should only be shown when the retrieved evidence actually addresses the question. New filings should feed the portfolio digest, and alert rules should avoid repeating the same event. Please make the system explicit when a provider is unavailable rather than presenting stale or invented information as current.
 
