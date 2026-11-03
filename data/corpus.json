@@ -1,0 +1,82 @@
+{
+  "documents": [
+    {
+      "ticker": "INFY",
+      "title": "Infosys Q1 FY25 earnings call",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q1/documents/transcripts/earningscall.pdf",
+      "date": "2024-07-18",
+      "provenance": "Verified short excerpt from official company earnings-call transcript; one-based PDF page; historical replay as of 2025-04-22",
+      "pages": [
+        {
+          "page": 5,
+          "text": "we have revised our revenue growth guidance for the full financial year to 3% to 4% growth in constant currency."
+        }
+      ]
+    },
+    {
+      "ticker": "INFY",
+      "title": "Infosys Q2 FY25 earnings call",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q2/documents/transcripts/earningscall.pdf",
+      "date": "2024-10-17",
+      "provenance": "Verified short excerpt from official company earnings-call transcript; one-based PDF page; historical replay as of 2025-04-22",
+      "pages": [
+        {
+          "page": 4,
+          "text": "The new guidance is 3.75% to 4.5% growth in constant currency."
+        }
+      ]
+    },
+    {
+      "ticker": "INFY",
+      "title": "Infosys Q3 FY25 earnings call",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q3/documents/transcripts/earningscall.pdf",
+      "date": "2025-01-16",
+      "provenance": "Verified short excerpt from official company earnings-call transcript; one-based PDF page; historical replay as of 2025-04-22",
+      "pages": [
+        {
+          "page": 4,
+          "text": "we are revising our revenue growth guidance to growth of 4.5% to 5% in constant currency."
+        }
+      ]
+    },
+    {
+      "ticker": "INFY",
+      "title": "Infosys Q4 FY25 earnings call",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/transcripts/earningscall.pdf",
+      "date": "2025-04-17",
+      "provenance": "Verified short excerpt from official company earnings-call transcript; one-based PDF page; historical replay as of 2025-04-22",
+      "pages": [
+        {
+          "page": 3,
+          "text": "Our revenues grew at 4.2% in constant currency terms. Our operating margin was 21.1%."
+        }
+      ]
+    },
+    {
+      "ticker": "HCLTECH",
+      "title": "HCLTech Q4 FY25 earnings call",
+      "url": "https://www.hcltech.com/sites/default/files/document/open/call-trans/2025-04/HCLTech-Earnings-Q4FY25-Transcript.pdf",
+      "date": "2025-04-22",
+      "provenance": "Verified short excerpt from official company earnings-call transcript; one-based PDF page; historical replay as of 2025-04-22",
+      "pages": [
+        {
+          "page": 10,
+          "text": "revenue growth guidance for the full year is 2% to 5% in constant currency. EBIT margin guidance is at 18% to 19%."
+        }
+      ]
+    },
+    {
+      "ticker": "TCS",
+      "title": "TCS Q1 FY25 earnings call",
+      "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202024-25%20Earnings%20Conference%20Call%20held%20on%20Jul%2011%2C%202024.pdf",
+      "date": "2024-07-11",
+      "provenance": "Verified short excerpt from official company earnings-call transcript; one-based PDF page; historical replay as of 2025-04-22",
+      "pages": [
+        {
+          "page": 12,
+          "text": "We have said that FY'25 will be better than FY'24 overall."
+        }
+      ]
+    }
+  ]
+}

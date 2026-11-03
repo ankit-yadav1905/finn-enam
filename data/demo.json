@@ -1,0 +1,695 @@
+{
+  "asOf": "2025-04-22",
+  "mode": "historical replay",
+  "description": "Curated primary-source FY25 replay, not live market data. Portfolio is illustrative; company financial facts are sourced.",
+  "portfolio": [
+    {
+      "ticker": "INFY",
+      "name": "Infosys",
+      "sector": "IT services"
+    },
+    {
+      "ticker": "TCS",
+      "name": "Tata Consultancy Services",
+      "sector": "IT services"
+    },
+    {
+      "ticker": "HCLTECH",
+      "name": "HCLTech",
+      "sector": "IT services"
+    },
+    {
+      "ticker": "RELIANCE",
+      "name": "Reliance Industries",
+      "sector": "Energy & retail"
+    },
+    {
+      "ticker": "HDFCBANK",
+      "name": "HDFC Bank",
+      "sector": "Banking"
+    },
+    {
+      "ticker": "ICICIBANK",
+      "name": "ICICI Bank",
+      "sector": "Banking"
+    },
+    {
+      "ticker": "SUNPHARMA",
+      "name": "Sun Pharmaceutical",
+      "sector": "Pharmaceuticals"
+    },
+    {
+      "ticker": "CIPLA",
+      "name": "Cipla",
+      "sector": "Pharmaceuticals"
+    },
+    {
+      "ticker": "ITC",
+      "name": "ITC",
+      "sector": "Consumer goods"
+    },
+    {
+      "ticker": "HINDUNILVR",
+      "name": "Hindustan Unilever",
+      "sector": "Consumer goods"
+    },
+    {
+      "ticker": "TATAMOTORS",
+      "name": "Tata Motors",
+      "sector": "Automotive"
+    },
+    {
+      "ticker": "MARUTI",
+      "name": "Maruti Suzuki",
+      "sector": "Automotive"
+    },
+    {
+      "ticker": "LT",
+      "name": "Larsen & Toubro",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "ULTRACEMCO",
+      "name": "UltraTech Cement",
+      "sector": "Materials"
+    },
+    {
+      "ticker": "TATASTEEL",
+      "name": "Tata Steel",
+      "sector": "Materials"
+    },
+    {
+      "ticker": "BHARTIARTL",
+      "name": "Bharti Airtel",
+      "sector": "Telecom"
+    },
+    {
+      "ticker": "DIXON",
+      "name": "Dixon Technologies",
+      "sector": "Electronics manufacturing"
+    },
+    {
+      "ticker": "PERSISTENT",
+      "name": "Persistent Systems",
+      "sector": "IT services"
+    }
+  ],
+  "companies": [
+    {
+      "ticker": "INFY",
+      "name": "Infosys",
+      "sector": "IT services",
+      "snapshot": "Digital services and consulting across financial services, retail, manufacturing and other industries.",
+      "snapshotSourceIds": [
+        "infy-ar24"
+      ],
+      "sources": [
+        {
+          "id": "infy-ar24",
+          "title": "Infosys annual report FY24",
+          "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-24.pdf",
+          "type": "annual_report",
+          "date": "2024-06-03",
+          "page": null
+        },
+        {
+          "id": "infy-q1",
+          "title": "Infosys Q1 FY25 financial results",
+          "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q1/documents/ifrs-inr-press-release.pdf",
+          "type": "results",
+          "date": "2024-07-18",
+          "page": null
+        },
+        {
+          "id": "infy-call1",
+          "title": "Infosys Q1 FY25 earnings call",
+          "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q1/documents/transcripts/earningscall.pdf",
+          "type": "transcript",
+          "date": "2024-07-18",
+          "page": null
+        },
+        {
+          "id": "infy-q2",
+          "title": "Infosys Q2 FY25 financial results",
+          "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q2/documents/ifrs-inr-press-release.pdf",
+          "type": "results",
+          "date": "2024-10-17",
+          "page": null
+        },
+        {
+          "id": "infy-call2",
+          "title": "Infosys Q2 FY25 earnings call",
+          "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q2/documents/transcripts/earningscall.pdf",
+          "type": "transcript",
+          "date": "2024-10-17",
+          "page": null
+        },
+        {
+          "id": "infy-q3",
+          "title": "Infosys Q3 FY25 financial results",
+          "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q3/documents/ifrs-inr-press-release.pdf",
+          "type": "results",
+          "date": "2025-01-16",
+          "page": null
+        },
+        {
+          "id": "infy-call3",
+          "title": "Infosys Q3 FY25 earnings call",
+          "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q3/documents/transcripts/earningscall.pdf",
+          "type": "transcript",
+          "date": "2025-01-16",
+          "page": null
+        },
+        {
+          "id": "infy-q4",
+          "title": "Infosys Q4 FY25 financial results",
+          "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/ifrs-inr-press-release.pdf",
+          "type": "results",
+          "date": "2025-04-17",
+          "page": null
+        },
+        {
+          "id": "infy-call4",
+          "title": "Infosys Q4 FY25 earnings call",
+          "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/transcripts/earningscall.pdf",
+          "type": "transcript",
+          "date": "2025-04-17",
+          "page": null
+        },
+        {
+          "id": "infy-q0",
+          "title": "Infosys original FY25 outlook",
+          "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2023-2024/q4/documents/ifrs-inr-press-release.pdf",
+          "type": "results",
+          "date": "2024-04-18",
+          "page": 1
+        }
+      ],
+      "results": [
+        {
+          "period": "Q4 FY24",
+          "date": "2024-03-31",
+          "revenue": 37923,
+          "ebitda": null,
+          "pbt": 10240,
+          "pat": 7969,
+          "operatingMargin": 20.1,
+          "unit": "INR crore",
+          "basis": "Consolidated IFRS; PAT attributable to shareholders",
+          "sourceId": "infy-q4"
+        },
+        {
+          "period": "Q1 FY25",
+          "date": "2024-06-30",
+          "revenue": 39315,
+          "ebitda": null,
+          "pbt": 9021,
+          "pat": 6368,
+          "operatingMargin": 21.1,
+          "unit": "INR crore",
+          "basis": "Consolidated IFRS; PAT attributable to shareholders",
+          "sourceId": "infy-q1"
+        },
+        {
+          "period": "Q2 FY25",
+          "date": "2024-09-30",
+          "revenue": 40986,
+          "ebitda": null,
+          "pbt": 9253,
+          "pat": 6506,
+          "operatingMargin": 21.1,
+          "unit": "INR crore",
+          "basis": "Consolidated IFRS; PAT attributable to shareholders",
+          "sourceId": "infy-q2"
+        },
+        {
+          "period": "Q3 FY25",
+          "date": "2024-12-31",
+          "revenue": 41764,
+          "ebitda": null,
+          "pbt": 9670,
+          "pat": 6806,
+          "operatingMargin": 21.3,
+          "unit": "INR crore",
+          "basis": "Consolidated IFRS; PAT attributable to shareholders",
+          "sourceId": "infy-q3"
+        },
+        {
+          "period": "Q4 FY25",
+          "date": "2025-03-31",
+          "revenue": 40925,
+          "ebitda": null,
+          "pbt": 9663,
+          "pat": 7033,
+          "operatingMargin": 21,
+          "unit": "INR crore",
+          "basis": "Consolidated IFRS; PAT attributable to shareholders",
+          "sourceId": "infy-q4"
+        }
+      ],
+      "guidance": [
+        {
+          "id": "infy-growth-0",
+          "announcedDate": "2024-04-18",
+          "targetPeriod": "FY25",
+          "metric": "Revenue growth in constant currency",
+          "low": 1,
+          "high": 3,
+          "actual": 4.2,
+          "unit": "%",
+          "status": "exceeded",
+          "sourceId": "infy-q0",
+          "sourcePage": 1,
+          "actualSourceId": "infy-call4",
+          "explanation": "Compared with the eventual full-year FY25 outcome. Later guidance revisions superseded this forecast.",
+          "actualDate": "2025-04-17"
+        },
+        {
+          "id": "infy-growth-1",
+          "announcedDate": "2024-07-18",
+          "targetPeriod": "FY25",
+          "metric": "Revenue growth in constant currency",
+          "low": 3,
+          "high": 4,
+          "actual": 4.2,
+          "unit": "%",
+          "status": "exceeded",
+          "sourceId": "infy-call1",
+          "sourcePage": 5,
+          "actualSourceId": "infy-call4",
+          "explanation": "Compared with the eventual full-year FY25 outcome. Later guidance revisions superseded this forecast.",
+          "actualDate": "2025-04-17"
+        },
+        {
+          "id": "infy-growth-2",
+          "announcedDate": "2024-10-17",
+          "targetPeriod": "FY25",
+          "metric": "Revenue growth in constant currency",
+          "low": 3.75,
+          "high": 4.5,
+          "actual": 4.2,
+          "unit": "%",
+          "status": "met",
+          "sourceId": "infy-call2",
+          "sourcePage": 4,
+          "actualSourceId": "infy-call4",
+          "explanation": "Compared with the eventual full-year FY25 outcome. Later guidance revisions superseded this forecast.",
+          "actualDate": "2025-04-17"
+        },
+        {
+          "id": "infy-growth-3",
+          "announcedDate": "2025-01-16",
+          "targetPeriod": "FY25",
+          "metric": "Revenue growth in constant currency",
+          "low": 4.5,
+          "high": 5,
+          "actual": 4.2,
+          "unit": "%",
+          "status": "missed",
+          "sourceId": "infy-call3",
+          "sourcePage": 4,
+          "actualSourceId": "infy-call4",
+          "explanation": "FY25 growth of 4.2% finished 0.3 percentage points below the final guidance floor.",
+          "actualDate": "2025-04-17"
+        },
+        {
+          "id": "infy-margin",
+          "announcedDate": "2025-01-16",
+          "targetPeriod": "FY25",
+          "metric": "Operating margin",
+          "low": 20,
+          "high": 22,
+          "actual": 21.1,
+          "unit": "%",
+          "status": "met",
+          "sourceId": "infy-call3",
+          "sourcePage": 7,
+          "actualSourceId": "infy-call4",
+          "explanation": "Full-year operating margin remained within the stated range."
+        },
+        {
+          "id": "infy-next",
+          "announcedDate": "2025-04-17",
+          "targetPeriod": "FY26",
+          "metric": "Revenue growth in constant currency",
+          "low": 0,
+          "high": 3,
+          "actual": null,
+          "unit": "%",
+          "status": "pending",
+          "sourceId": "infy-call4",
+          "actualSourceId": null,
+          "explanation": "Unresolved at the historical replay date; no future outcome is used."
+        }
+      ],
+      "insights": [
+        {
+          "title": "Growth missed the final promise",
+          "text": "FY25 constant-currency growth was 4.2%; January guidance was 4.5-5%. The final forecast was missed, even though earlier ranges were met or exceeded.",
+          "sourceIds": [
+            "infy-call3",
+            "infy-call4"
+          ]
+        },
+        {
+          "title": "Cash generation outpaced earnings",
+          "text": "FY25 free cash flow was INR 34,549 crore. Management reported cash conversion of 129%, or 112% excluding tax refunds.",
+          "sourceIds": [
+            "infy-call4"
+          ]
+        },
+        {
+          "title": "Bull case",
+          "text": "Inference: improved full-year operating margin and strong cash conversion provide capacity to invest through a weak demand cycle.",
+          "sourceIds": [
+            "infy-call4"
+          ]
+        },
+        {
+          "title": "Bear case",
+          "text": "Inference: the final growth miss and FY26 outlook of 0-3% constant-currency growth suggest a cautious demand outlook.",
+          "sourceIds": [
+            "infy-call3",
+            "infy-call4"
+          ]
+        }
+      ],
+      "notes": [
+        "EBITDA is unavailable in the curated extraction; operating profit is not relabelled EBITDA.",
+        "PAT is after non-controlling interests. Prior-year tax items affect comparability."
+      ]
+    },
+    {
+      "ticker": "TCS",
+      "name": "Tata Consultancy Services",
+      "sector": "IT services",
+      "snapshot": "Global technology services, consulting and business solutions serving enterprises across industries.",
+      "snapshotSourceIds": [
+        "tcs-ar24"
+      ],
+      "sources": [
+        {
+          "id": "tcs-q4",
+          "title": "TCS Q4 FY25 financial results",
+          "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q4-fy-2025",
+          "type": "results",
+          "date": "2025-04-10",
+          "page": null
+        },
+        {
+          "id": "tcs-call1",
+          "title": "TCS Q1 FY25 earnings call",
+          "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202024-25%20Earnings%20Conference%20Call%20held%20on%20Jul%2011%2C%202024.pdf",
+          "type": "transcript",
+          "date": "2024-07-11",
+          "page": null
+        },
+        {
+          "id": "tcs-ar24",
+          "title": "TCS annual report FY24",
+          "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/ar/annual-report-2023-2024.pdf",
+          "type": "annual_report",
+          "date": null,
+          "page": null
+        }
+      ],
+      "results": [
+        {
+          "period": "Q4 FY24",
+          "date": "2024-03-31",
+          "revenue": 7363,
+          "ebitda": null,
+          "pbt": 2027,
+          "pat": 1496,
+          "operatingMargin": 26,
+          "unit": "USD million",
+          "basis": "Consolidated IFRS; PAT attributable to shareholders",
+          "sourceId": "tcs-q4"
+        },
+        {
+          "period": "Q4 FY25",
+          "date": "2025-03-31",
+          "revenue": 7465,
+          "ebitda": null,
+          "pbt": 1900,
+          "pat": 1418,
+          "operatingMargin": 24.2,
+          "unit": "USD million",
+          "basis": "Consolidated IFRS; PAT attributable to shareholders",
+          "sourceId": "tcs-q4"
+        }
+      ],
+      "guidance": [
+        {
+          "id": "tcs-outlook",
+          "announcedDate": "2024-07-11",
+          "targetPeriod": "FY25",
+          "metric": "Qualitative growth outlook",
+          "low": null,
+          "high": null,
+          "actual": null,
+          "status": "not comparable",
+          "sourceId": "tcs-call1",
+          "actualSourceId": "tcs-q4",
+          "explanation": "Management expected FY25 to be better than FY24. No numerical target is assigned to this qualitative statement."
+        }
+      ],
+      "insights": [
+        {
+          "title": "Quarterly growth with margin pressure",
+          "text": "Q4 revenue increased from $7,363 million to $7,465 million year on year; operating margin was 24.2%.",
+          "sourceIds": [
+            "tcs-q4"
+          ]
+        },
+        {
+          "title": "Bull case",
+          "text": "Inference: the breadth of its service portfolio and client relationships may support demand recovery.",
+          "sourceIds": [
+            "tcs-ar24",
+            "tcs-call1"
+          ]
+        },
+        {
+          "title": "Bear case",
+          "text": "Inference: management commentary about client spending and deal timing deserves monitoring; qualitative optimism is insufficient for a numerical delivery score.",
+          "sourceIds": [
+            "tcs-call1"
+          ]
+        }
+      ],
+      "notes": [
+        "USD million figures must not be directly compared with INR crore figures.",
+        "Only the year-earlier comparison is curated; no sequential comparison is available."
+      ]
+    },
+    {
+      "ticker": "HCLTECH",
+      "name": "HCLTech",
+      "sector": "IT services",
+      "snapshot": "Technology services and software, spanning IT and business services, engineering and R&D, and HCLSoftware.",
+      "snapshotSourceIds": [
+        "hcl-ar24",
+        "hcl-call4"
+      ],
+      "sources": [
+        {
+          "id": "hcl-q4",
+          "title": "HCLTech FY25 results announcement",
+          "url": "https://www.hcltech.com/en-us/press-releases/hcltech-delivers-another-year-industry-leading-growth",
+          "type": "results",
+          "date": "2025-04-22",
+          "page": null
+        },
+        {
+          "id": "hcl-call4",
+          "title": "HCLTech Q4 FY25 earnings call",
+          "url": "https://www.hcltech.com/sites/default/files/document/open/call-trans/2025-04/HCLTech-Earnings-Q4FY25-Transcript.pdf",
+          "type": "transcript",
+          "date": "2025-04-22",
+          "page": 10
+        },
+        {
+          "id": "hcl-ar24",
+          "title": "HCLTech annual report FY24",
+          "url": "https://www.hcltech.com/sites/default/files/document/open/annual-report/2024-08/HCLTech_Annual_Report2023-24.pdf",
+          "type": "annual_report",
+          "date": "2024-07-22",
+          "page": null
+        }
+      ],
+      "results": [
+        {
+          "period": "Q4 FY25",
+          "date": "2025-03-31",
+          "revenue": 3494,
+          "ebitda": null,
+          "pbt": null,
+          "pat": 496,
+          "operatingMargin": 17.9,
+          "unit": "USD million",
+          "basis": "Consolidated IFRS; PAT attributable to shareholders",
+          "sourceId": "hcl-call4"
+        }
+      ],
+      "guidance": [
+        {
+          "id": "hcl-growth",
+          "announcedDate": "2025-04-22",
+          "targetPeriod": "FY26",
+          "metric": "Revenue growth in constant currency",
+          "low": 2,
+          "high": 5,
+          "actual": null,
+          "unit": "%",
+          "status": "pending",
+          "sourceId": "hcl-call4",
+          "sourcePage": 10,
+          "actualSourceId": null,
+          "explanation": "Forward guidance is pending at the replay date."
+        },
+        {
+          "id": "hcl-margin",
+          "announcedDate": "2025-04-22",
+          "targetPeriod": "FY26",
+          "metric": "EBIT margin",
+          "low": 18,
+          "high": 19,
+          "actual": null,
+          "unit": "%",
+          "status": "pending",
+          "sourceId": "hcl-call4",
+          "sourcePage": 10,
+          "actualSourceId": null,
+          "explanation": "FY26 target cannot be scored against FY25 actuals."
+        }
+      ],
+      "insights": [
+        {
+          "title": "Cash conversion",
+          "text": "Management reported FY25 operating cash flow of $2.63 billion and free cash flow of $2.5 billion; FCF was 123% of net income.",
+          "sourceIds": [
+            "hcl-call4"
+          ]
+        },
+        {
+          "title": "Bull case",
+          "text": "Inference: positive services growth and strong cash generation provide support for investment in new capabilities.",
+          "sourceIds": [
+            "hcl-call4"
+          ]
+        },
+        {
+          "title": "Bear case",
+          "text": "Inference: software seasonality and a cautious outlook make quarterly extrapolation unreliable.",
+          "sourceIds": [
+            "hcl-call4"
+          ]
+        }
+      ],
+      "notes": [
+        "Q4 revenue and net income are from the earnings-call transcript, pages 10-11.",
+        "PBT and EBITDA are not extracted; they are unavailable, not zero."
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "infy-result",
+      "ticker": "INFY",
+      "date": "2025-04-17",
+      "category": "results",
+      "priority": "high",
+      "title": "Growth falls short of the final outlook",
+      "summary": "FY25 CC revenue growth of 4.2% missed the January 4.5-5% range.",
+      "whyItMatters": "A 0.3 percentage-point miss against the final floor merits a closer look at demand and forecasting.",
+      "sourceId": "infy-q4",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/ifrs-inr-press-release.pdf"
+    },
+    {
+      "id": "hcl-result",
+      "ticker": "HCLTECH",
+      "date": "2025-04-22",
+      "category": "results",
+      "priority": "high",
+      "title": "FY26 growth outlook: 2-5%",
+      "summary": "HCLTech reported FY25 CC growth of 4.7% and set a 2-5% range for the following year.",
+      "whyItMatters": "The new outlook frames expectations; it must not be scored against prior-year growth.",
+      "sourceId": "hcl-q4",
+      "url": "https://www.hcltech.com/en-us/press-releases/hcltech-delivers-another-year-industry-leading-growth"
+    },
+    {
+      "id": "tcs-result",
+      "ticker": "TCS",
+      "date": "2025-04-10",
+      "category": "results",
+      "priority": "high",
+      "title": "Revenue grows; quarterly profit declines",
+      "summary": "Q4 revenue was $7,465 million; shareholder net income was $1,418 million.",
+      "whyItMatters": "Revenue and net income moved in different directions year on year. Inspect the margin and tax bridge.",
+      "sourceId": "tcs-q4",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q4-fy-2025"
+    },
+    {
+      "id": "infy-dividend",
+      "ticker": "INFY",
+      "date": "2025-04-17",
+      "category": "dividend",
+      "priority": "medium",
+      "title": "Final dividend of INR 22 proposed",
+      "summary": "The board proposed a final dividend of INR 22 per share.",
+      "whyItMatters": "A proposed distribution, subject to the applicable approval process.",
+      "sourceId": "infy-q4",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/ifrs-inr-press-release.pdf"
+    },
+    {
+      "id": "hcl-dividend",
+      "ticker": "HCLTECH",
+      "date": "2025-04-22",
+      "category": "dividend",
+      "priority": "medium",
+      "title": "INR 18 per share dividend declared",
+      "summary": "The FY25 total dividend reached INR 60 per share.",
+      "whyItMatters": "Track the April 28 record date and May 6 payment date in the earnings-call disclosure.",
+      "sourceId": "hcl-call4",
+      "url": "https://www.hcltech.com/sites/default/files/document/open/call-trans/2025-04/HCLTech-Earnings-Q4FY25-Transcript.pdf"
+    },
+    {
+      "id": "infy-transcript",
+      "ticker": "INFY",
+      "date": "2025-04-17",
+      "category": "earnings_call",
+      "priority": "low",
+      "title": "Q4 management commentary available",
+      "summary": "The earnings call provides context on growth, cash generation and the FY26 outlook.",
+      "whyItMatters": "Supporting evidence is available for the results analysis.",
+      "sourceId": "infy-call4",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2024-2025/q4/documents/transcripts/earningscall.pdf"
+    },
+    {
+      "id": "hcl-transcript",
+      "ticker": "HCLTECH",
+      "date": "2025-04-22",
+      "category": "earnings_call",
+      "priority": "low",
+      "title": "Q4 earnings call available",
+      "summary": "Management discussed software seasonality, cash generation and guidance.",
+      "whyItMatters": "Open the primary transcript for context.",
+      "sourceId": "hcl-call4",
+      "url": "https://www.hcltech.com/sites/default/files/document/open/call-trans/2025-04/HCLTech-Earnings-Q4FY25-Transcript.pdf"
+    }
+  ],
+  "coverage": {
+    "researchedCompanies": 3,
+    "portfolioCompanies": 18,
+    "livePrices": false,
+    "exchangeFeed": false
+  },
+  "methodology": [
+    "Guidance comparisons use the same fiscal period, metric and constant-currency basis.",
+    "A range is met when actual is within inclusive bounds; exceeded is above the upper bound.",
+    "Historical forecasts are shown with their eventual outcomes, not as simultaneous commitments.",
+    "All sources are company disclosures; no broker or news analysis is used.",
+    "Summaries are curated; no claim of a live model call is made."
+  ]
+}
