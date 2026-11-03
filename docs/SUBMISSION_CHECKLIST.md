@@ -5,9 +5,9 @@
 - [x] Full primary-document indexing, nonportfolio research and page citations.
 - [x] Regression tests, production build and schema migrations.
 - [x] Public Site audience configured.
-- [ ] Verify final public deployment and database operations.
-- [ ] Connect/verify background Site monitoring tool and task if included in submission claims.
+- [x] Verify final public deployment and database operations.
+- [x] Authenticated refresh/readback verified; weekday monitoring enabled, first scheduled run pending.
 - [ ] Publish GitHub repository after verification, as requested.
-- [ ] Attach original AI conversation export/share link.
+- [x] Original visible conversation export: docs/AI_CONVERSATION.md (scope explained in file).
 - [ ] Replace name and GitHub/history placeholders in covering note.
 - [ ] Send the final email (not sent automatically).

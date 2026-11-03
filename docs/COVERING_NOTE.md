@@ -6,8 +6,8 @@ Dear ENAM team,
 Please find FINN, a mobile-first portfolio briefing and source-backed investment research prototype.
 
 Prototype: https://finn-enam-ashis.matangisharma2020.chatgpt.site
-GitHub: [insert repository link]
-AI build history: [attach original Codex conversation export or share link]
+GitHub: https://github.com/ankit-yadav1905/finn-enam
+AI build history: https://github.com/ankit-yadav1905/finn-enam/blob/main/docs/AI_CONVERSATION.md
 
 FINN monitors a mock18-company watchlist using completed daily prices and NSE/BSE disclosures. Its live briefing defaults to24 hours, prioritises material events, exposes source coverage, and evaluates configurable price/volume thresholds. Source records and last-success snapshots persist in D1.
 

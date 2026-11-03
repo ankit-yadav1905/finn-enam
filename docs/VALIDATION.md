@@ -27,3 +27,7 @@ Cloudflare fetch rejects redirect:'error'; the previous generic API catch concea
 - GitHub and original chat export remain separate submission steps.
 
 Price-only sessions retain close and price change when an exchange/provider omits volume. Volume and volume ratio remain null, never zero.
+
+## Public deployment follow-up
+
+Public health/storage, INFY EOD,18-company24-hour digest and ASIANPAINT full-report research all passed. Anonymous imports return401 as intended. The authenticated FINN refresh tool retrieved all18 sources; its second run returned zero repeated alerts. Weekday hourly09:30-18:30 Asia/Kolkata monitoring is enabled; first scheduled occurrence is pending. Live D1 event and market-cache rows were read back successfully.
