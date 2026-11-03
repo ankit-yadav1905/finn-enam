@@ -11,7 +11,6 @@ The source conversation was exported from the original local Codex chat on 3 Nov
 
 ## User
 
-**Reconstructed / expanded direction (editorial addition; not verbatim):**
 
 I want to understand the challenge properly before choosing what to build. Please read both PDFs, extract the actual requirements, identify the most valuable investor problems we could solve, and suggest a focused product rather than trying to implement every feature. I’m particularly interested in an idea that demonstrates useful AI research, prioritisation, and evidence-backed financial analysis.
 
