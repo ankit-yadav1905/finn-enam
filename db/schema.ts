@@ -1,4 +1,6 @@
-// Intentionally empty by default.
-// Add Drizzle tables here when the site actually needs a database.
-// See examples/d1/db/schema.ts for an opt-in example.
-export {};
+import { sqliteTable, text, integer, primaryKey } from 'drizzle-orm/sqlite-core';
+export const documents=sqliteTable('documents',{id:text('id').primaryKey(),ticker:text('ticker').notNull(),title:text('title').notNull(),url:text('url').notNull(),kind:text('kind').notNull(),publishedAt:text('published_at'),sha256:text('sha256'),ingestedAt:text('ingested_at').notNull()});
+export const documentPages=sqliteTable('document_pages',{documentId:text('document_id').notNull(),page:integer('page').notNull(),text:text('text').notNull()},t=>[primaryKey({columns:[t.documentId,t.page]})]);
+export const events=sqliteTable('events',{id:text('id').primaryKey(),ticker:text('ticker').notNull(),publishedAt:text('published_at').notNull(),category:text('category').notNull(),priority:text('priority').notNull(),title:text('title').notNull(),summary:text('summary').notNull(),url:text('url').notNull(),fetchedAt:text('fetched_at').notNull()});
+export const marketCache=sqliteTable('market_cache',{ticker:text('ticker').primaryKey(),payload:text('payload').notNull(),fetchedAt:text('fetched_at').notNull()});
+export const requestBudgets=sqliteTable('request_budgets',{key:text('key').primaryKey(),count:integer('count').notNull(),expiresAt:text('expires_at').notNull()});

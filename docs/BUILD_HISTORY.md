@@ -15,3 +15,5 @@ This document summarises the actual build process. It is not a verbatim AI conve
 - Validated arithmetic, type safety, production build and representative browser interactions.
 
 Before submission, export/share the actual Codex chat using the app's supported export/share mechanism and include that link or attachment. This log must not be presented as the complete conversation history.
+
+Follow-up: audit found importer ID bug, keyword-only relevance error, static digest isolation and Cloudflare unsupported redirect mode. Repaired these, added full primary documents, durable D1 storage, runtime PDF ingestion, live portfolio views and regressions. Optional model and GitHub credentials remain user-deferred.

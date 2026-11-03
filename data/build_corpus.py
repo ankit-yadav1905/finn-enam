@@ -1,5 +1,5 @@
 """Small verified transcript excerpt index; PDF page numbers are one-based."""
-import json
+import json,importlib.util
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 demo=json.loads((root/'data/demo.json').read_text(encoding='utf-8'))
@@ -16,6 +16,12 @@ docs=[]
 for ticker,sid,page,text in rows:
  assert len(text.split())<=25,(sid,len(text.split()))
  s=sources[sid]
- docs.append(dict(ticker=ticker,title=s['title'],url=s['url'],date=s['date'],provenance='Verified short excerpt from official company earnings-call transcript; one-based PDF page; historical replay as of 2025-04-22',pages=[dict(page=page,text=text)]))
-(root/'data/corpus.json').write_text(json.dumps(dict(documents=docs),indent=2,ensure_ascii=True),encoding='utf-8')
+ docs.append(dict(ticker=ticker,title=s['title'],url=s['url'],date=s['date'],kind='transcript',coverage='excerpt',provenance='Verified short excerpt from official company earnings-call transcript; one-based PDF page; historical replay as of 2025-04-22',pages=[dict(page=page,text=text)]))
+spec=importlib.util.spec_from_file_location('ingest',root/'scripts/ingest-pdf.py')
+ingest=importlib.util.module_from_spec(spec);spec.loader.exec_module(ingest)
+path=root/'data/corpus.json'
+existing=json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'documents':[]}
+# Never downgrade a full downloaded document to the small bootstrap excerpt.
+corpus=ingest.migrate_corpus(dict(documents=existing['documents']+docs))
+path.write_text(json.dumps(corpus,indent=2,ensure_ascii=False),encoding='utf-8')
 print('Wrote',len(docs),'verified transcript excerpts')
