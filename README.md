@@ -4,6 +4,8 @@ Public prototype: https://finn-enam-ashis.matangisharma2020.chatgpt.site
 
 Source repository: https://github.com/ankit-yadav1905/finn-enam
 
+New to FINN? Read the [user guide](docs/USER_GUIDE.md) for a five-minute walkthrough, navigation help, research examples and an explanation of the information available.
+
 ## Run
 
 Node 22.13+; `npm ci`, then `npm run dev`. Open http://127.0.0.1:5173.
